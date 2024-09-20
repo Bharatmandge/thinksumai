@@ -5,7 +5,7 @@ const toggleThemeButton = document.querySelector("#theme-toggle-button");
 const deleteChatButton = document.querySelector("#delete-chat-button");
 let userMessage = null;
 let isResponseGenerating = false;
-const API_KEY = "AIzaSyBHGfh2sypM0u_hZPjLCIcHWui7SgAZ8h4"; 
+const API_KEY = "Add your API Key from Google Gemini"; 
 const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
 const loadDataFromLocalstorage = () => {
   const savedChats = localStorage.getItem("saved-chats");
